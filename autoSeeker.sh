@@ -2,10 +2,12 @@
 
 cd $HOME
 
-pkg update && pkg upgrade
-pkg install nano
-pkg install python && pkg install python2
-pkg install git
+pkg update 
+pkg upgrade
+pkg install nano -y
+pkg install python -y
+pkg install python2 -y
+pkg install git -y
 
 echo -e "\e[34mPart 1 done\e[0m"
 cd $HOME
